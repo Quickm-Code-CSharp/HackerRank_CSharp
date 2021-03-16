@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace HackerRank_CSharp
 {
-    class Test_Day7 : Test_CodeChallenge
+    class Test_Day7 : Test_CodeChallenge, ICodeChallengeTest
     {
         public Test_Day7(String filename)
         {

@@ -6,7 +6,7 @@ namespace HackerRank_CSharp
 {
     interface ICodeChallengeTest
     {
-        string GetUseCaseCount();
-        void GetInputData();
+        public void Test();
+
     }
 }

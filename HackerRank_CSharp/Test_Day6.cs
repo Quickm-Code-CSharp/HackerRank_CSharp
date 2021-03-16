@@ -5,7 +5,7 @@ using HackerRank_CSharp._30_Days_of_Code;
 
 namespace HackerRank_CSharp
 {
-    class Test_Day6 : Test_CodeChallenge
+    class Test_Day6 : Test_CodeChallenge, ICodeChallengeTest
     {
         public Test_Day6(String filename)
         {
