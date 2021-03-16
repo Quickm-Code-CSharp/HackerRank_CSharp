@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HackerRank_CSharp.Properties;
+using System;
+using System.Resources;
 
 namespace HackerRank_CSharp
 {
@@ -7,8 +9,11 @@ namespace HackerRank_CSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            String testfile;
 
-            Test_Day7_Array_Reverse test = new Test_Day7_Array_Reverse();
+            testfile = TestResources.ResourceManager.GetString("Day7_ArrayResource");
+
+            Test_Day7_Array_Reverse test = new Test_Day7_Array_Reverse(testfile);
 
             test.test();
         }

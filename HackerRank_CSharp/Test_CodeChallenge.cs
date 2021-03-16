@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.IO;
+using System.Reflection;
 
 namespace HackerRank_CSharp
 {
@@ -21,5 +22,26 @@ namespace HackerRank_CSharp
 
             return str;
         }
+
+        protected bool ReadInput(String filename, ref String[] data)
+        {
+            bool valid = true;
+
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), filename);
+            if (!File.Exists(filename))
+            {
+                Console.WriteLine("Error: test file path is invalid: {0}", path);
+                valid = false;
+            }
+
+            else
+            {
+                data = File.ReadAllLines(path);
+            }
+
+            return valid;
+        }
+
+
     }
 }
