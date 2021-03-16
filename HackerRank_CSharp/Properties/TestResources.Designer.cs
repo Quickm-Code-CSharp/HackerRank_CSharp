@@ -61,6 +61,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 30_Days_of_Code.
+        /// </summary>
+        internal static string _30DaysOfCode {
+            get {
+                return ResourceManager.GetString("30DaysOfCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_Day7_ArrayReverse.txt.
         /// </summary>
         internal static string Day7_ArrayResource {

@@ -25,7 +25,9 @@ namespace HackerRank_CSharp
         {
             String      line;
             int[]       nums;
-            string[]    lines = { }; 
+            string[]    lines = { };
+
+            String parent;
 
             if (!ReadInput(filename, ref lines))
             {
