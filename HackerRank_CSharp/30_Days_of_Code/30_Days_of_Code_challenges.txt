@@ -1,11 +1,11 @@
 ﻿The list of challenges were originally coded in C++.  Challenge solution with 
 dates have been coded in C# and exist in this solution.
 
-Challenge:  C# Date:        Class
+Challenge:   C# Date:          Class
 Day 1		      
 Day 2             
 Day 3             
 Day 4		      
 Day 5		      
 Day 6				
-Day 7		     03/16/2021		   Array_Reverse
+Day 7		 03/16/2021		   Array_Reverse
