@@ -8,11 +8,11 @@ namespace HackerRank_CSharp
     class Test_CodeChallenge
     {
 
-        protected String printListInt(List<int> list, char delimiter = ' ')
+        protected String PrintList(List<int> list, char delimiter = ' ')
         {
             String str = String.Empty;
 
-            foreach(int item in list)
+            foreach (int item in list)
             {
                 str += item.ToString();
                 str += delimiter;
@@ -22,6 +22,23 @@ namespace HackerRank_CSharp
 
             return str;
         }
+
+        protected String PrintList(List<string> list, char delimiter = ' ')
+        {
+            String str = String.Empty;
+
+            foreach (var item in list)
+            {
+                str += item;
+                str += delimiter;
+            }
+
+            str = str.Trim(delimiter);
+
+            return str;
+        }
+
+
 
         protected bool ReadInputFile(String filename, ref String[] data)
         {

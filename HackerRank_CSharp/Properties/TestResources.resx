@@ -120,6 +120,9 @@
   <data name="30DaysOfCode" xml:space="preserve">
     <value>30_Days_of_Code</value>
   </data>
+  <data name="Day6" xml:space="preserve">
+    <value>TestFile_Day6.txt</value>
+  </data>
   <data name="Day7" xml:space="preserve">
     <value>TestFile_Day7.txt</value>
   </data>

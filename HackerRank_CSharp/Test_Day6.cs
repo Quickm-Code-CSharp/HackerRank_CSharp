@@ -1,31 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
+using HackerRank_CSharp._30_Days_of_Code;
 
 namespace HackerRank_CSharp
 {
-    class Test_Day7 : Test_CodeChallenge
+    class Test_Day6 : Test_CodeChallenge
     {
-        public Test_Day7(String filename)
+        public Test_Day6(String filename)
         {
+            Data = new List<string>();
             ReadData(filename);
         }
 
         public void Test()
         {
-            List<int> data = Data;
+            List<string> data = Data;
 
-            Day7_Array_Reverse reverse = new Day7_Array_Reverse();
+            Day6_String_EvenOdd evenOdd = new Day6_String_EvenOdd();
 
-            Console.WriteLine("Day 7: Array Reverse: ");
+            Console.WriteLine("Day 6: String Even or Odd: ");
             Console.WriteLine("Input:  {0}", PrintList(data));
-            Console.WriteLine("Output: {0}", reverse.ReverseArray(data));
+
+            var output = evenOdd.EvenOddStrings(data);
+            Console.WriteLine("Output: {0}", PrintList(output));
             Console.WriteLine(" ");
+
         }
 
         protected void ReadData(String filename)
         {
             String      line;
-            int[]       nums;
             string[]    lines = { };
 
             if (!ReadInputFile(filename, ref lines))
@@ -44,17 +49,15 @@ namespace HackerRank_CSharp
                         Count = n;
                         break;
                     default:
-                        string[] strings    = line.Split(' ');
-                        nums                = Array.ConvertAll(strings, s => int.Parse(s));
-                        Data                = new List<int>(nums);
+                        Data.Add(line);
                         break;
                 }
             }
 
-
         }
 
-        public int          Count { get; protected set; }
-        public List<int>    Data { get; protected set; }
+        public int Count { get; protected set; }
+        public List<string> Data { get; protected set; }
+
     }
-};
+}

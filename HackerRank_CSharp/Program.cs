@@ -10,6 +10,8 @@ namespace HackerRank_CSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to HackerRank code challenges!");
+            Console.WriteLine(" ");
+
 
             Test_30_Days();
 
@@ -17,16 +19,24 @@ namespace HackerRank_CSharp
 
         private static void Test_30_Days()
         {
-            String testfile;
             String parentDir;
+            String testfile;
 
-            testfile = TestResources.ResourceManager.GetString("Day7");
             parentDir = TestResources.ResourceManager.GetString("30DaysOfCode");
 
+
+            testfile = TestResources.ResourceManager.GetString("Day6");
+            testfile = Path.Combine(parentDir, testfile);
+
+            Test_Day6 day6 = new Test_Day6(testfile);
+            day6.Test();
+
+
+            testfile = TestResources.ResourceManager.GetString("Day7");
             testfile = Path.Combine(parentDir, testfile);
 
             Test_Day7 day7 = new Test_Day7(testfile);
-            day7.test();
+            day7.Test();
         }
 
 

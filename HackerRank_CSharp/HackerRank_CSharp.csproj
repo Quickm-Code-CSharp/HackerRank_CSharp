@@ -6,10 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="30_Days_of_Code\TestFile_Day6.txt" />
     <None Remove="TestFile_Day7_ArrayReverse.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="30_Days_of_Code\TestFile_Day6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="30_Days_of_Code\TestFile_Day7.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
