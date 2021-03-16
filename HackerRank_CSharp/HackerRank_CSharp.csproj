@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="30_Days_of_Code\TestFile_Day7_ArrayReverse.txt">
+    <Content Include="30_Days_of_Code\TestFile_Day7.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

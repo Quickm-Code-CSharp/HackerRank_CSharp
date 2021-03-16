@@ -23,7 +23,7 @@ namespace HackerRank_CSharp
             return str;
         }
 
-        protected bool ReadInput(String filename, ref String[] data)
+        protected bool ReadInputFile(String filename, ref String[] data)
         {
             bool valid = true;
 

@@ -9,18 +9,26 @@ namespace HackerRank_CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to HackerRank code challenges!");
+
+            Test_30_Days();
+
+        }
+
+        private static void Test_30_Days()
+        {
             String testfile;
             String parentDir;
 
-            testfile  = TestResources.ResourceManager.GetString("Day7_ArrayResource");
+            testfile = TestResources.ResourceManager.GetString("Day7");
             parentDir = TestResources.ResourceManager.GetString("30DaysOfCode");
 
             testfile = Path.Combine(parentDir, testfile);
 
-            Test_Day7_Array_Reverse test = new Test_Day7_Array_Reverse(testfile);
-
-            test.test();
+            Test_Day7 day7 = new Test_Day7(testfile);
+            day7.test();
         }
+
+
     }
 }

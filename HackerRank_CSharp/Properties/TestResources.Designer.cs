@@ -70,11 +70,11 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day7_ArrayReverse.txt.
+        ///   Looks up a localized string similar to TestFile_Day7.txt.
         /// </summary>
-        internal static string Day7_ArrayResource {
+        internal static string Day7 {
             get {
-                return ResourceManager.GetString("Day7_ArrayResource", resourceCulture);
+                return ResourceManager.GetString("Day7", resourceCulture);
             }
         }
     }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace HackerRank_CSharp
 {
-    class Test_Day7_Array_Reverse : Test_CodeChallenge
+    class Test_Day7 : Test_CodeChallenge
     {
-        public Test_Day7_Array_Reverse(String filename)
+        public Test_Day7(String filename)
         {
             ReadData(filename);
         }
@@ -27,9 +27,7 @@ namespace HackerRank_CSharp
             int[]       nums;
             string[]    lines = { };
 
-            String parent;
-
-            if (!ReadInput(filename, ref lines))
+            if (!ReadInputFile(filename, ref lines))
             {
                 System.Environment.Exit(-1);
             }
