@@ -44,10 +44,12 @@ namespace HackerRank_CSharp
 
             Test_Day7 day7 = new Test_Day7(testfile);
             day7.Test();
+
+            testfile = TestResources.ResourceManager.GetString("Day8");
+            testfile = Path.Combine(parentDir, testfile);
+
+            Test_Day8 day8 = new Test_Day8(testfile);
+            day8.Test();
         }
-
-       
-
-
     }
 }

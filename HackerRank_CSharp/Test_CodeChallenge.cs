@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Text;
 
 namespace HackerRank_CSharp
 {
@@ -10,14 +11,15 @@ namespace HackerRank_CSharp
 
         protected String PrintList(List<int> list, char delimiter = ' ')
         {
-            String str = String.Empty;
+            string          str;
+            StringBuilder   sb  = new StringBuilder();
 
             foreach (int item in list)
             {
-                str += item.ToString();
-                str += delimiter;
+                sb = sb.AppendFormat("{0}{1}", item.ToString(), delimiter);
             }
 
+            str = sb.ToString();
             str = str.Trim(delimiter);
 
             return str;
@@ -25,20 +27,35 @@ namespace HackerRank_CSharp
 
         protected String PrintList(List<string> list, char delimiter = ' ')
         {
-            String str = String.Empty;
+            string          str;
+            StringBuilder   sb  = new StringBuilder();
 
             foreach (var item in list)
             {
-                str += item;
-                str += delimiter;
+                sb = sb.AppendFormat("{0}{1}", item, delimiter);
             }
 
+            str = sb.ToString();
             str = str.Trim(delimiter);
 
             return str;
         }
 
+        protected String PrintDictionary(Dictionary<String, String> dict, char delimiter = ' ')
+        {
+            string str;
+            StringBuilder sb = new StringBuilder();
 
+            foreach (var item in dict)
+            {
+                sb = sb.AppendFormat("{0}:{1}{2}", item.Key, item.Value, delimiter);
+            }
+
+            str = sb.ToString();
+            str = str.Trim(delimiter);
+
+            return str;
+        }
 
         protected bool ReadInputFile(String filename, ref String[] data)
         {
@@ -58,7 +75,5 @@ namespace HackerRank_CSharp
 
             return valid;
         }
-
-
     }
 }
