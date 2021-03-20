@@ -18,7 +18,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             List<int> usecases = Usecases;
 
             Console.WriteLine("Day 8: Dictionary Telephone: ");
-            Console.WriteLine("Input:  {0}", PrintList(usecases));
+            //Console.WriteLine("Input:  {0}", PrintList(usecases));
 
             Console.WriteLine("Test Usecases: ");
             foreach (var usecase in Usecases)
