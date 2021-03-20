@@ -3,6 +3,7 @@ using HackerRank_CSharp.Properties;
 using System;
 using System.IO;
 using System.Resources;
+using System.Text;
 
 namespace HackerRank_CSharp
 {
@@ -20,48 +21,44 @@ namespace HackerRank_CSharp
 
         private static void Test_30_Days()
         {
-            String parentDir;
-            String testfile;
+            const string parentKey = "30DaysOfCode";
 
-            parentDir = TestResources.ResourceManager.GetString("30DaysOfCode");
+            Test_SingleDay(parentKey, "Day2", "Test_Day2");
+            Test_SingleDay(parentKey, "Day6", "Test_Day6");
+            Test_SingleDay(parentKey, "Day7", "Test_Day7");
+            Test_SingleDay(parentKey, "Day8", "Test_Day8");
+            Test_SingleDay(parentKey, "Day9", "Test_Day9");
+            Test_SingleDay(parentKey, "Day10", "Test_Day10");
+        }
 
-            testfile = TestResources.ResourceManager.GetString("Day2");
-            testfile = Path.Combine(parentDir, testfile);
+        private static void Test_SingleDay(string parentKey, string dayKey, string testClass)
+        {
+            string          testfile;
+            StringBuilder   sb          = new StringBuilder();
 
-            Test_Day2 day2 = new Test_Day2(testfile);
-            day2.Test();
+            // Get test data file
+            testfile = GetTestFilePath(parentKey, dayKey);
 
+            // Get type for test class
+            sb.AppendFormat("{0}.{1}.{2}", "HackerRank_CSharp", "_30_Days_of_Code", testClass);
+            testClass = sb.ToString();
+            Type t = Type.GetType(testClass);
 
-            testfile = TestResources.ResourceManager.GetString("Day6");
-            testfile = Path.Combine(parentDir, testfile);
+            // Instantiate and run test
+            ICodeChallengeTest day = (ICodeChallengeTest)Activator.CreateInstance(t, testfile);
+            day.Test();
+        }
 
-            Test_Day6 day6 = new Test_Day6(testfile);
-            day6.Test();
+        private static string GetTestFilePath(string parent, string day)
+        {
+            string path;
+            string parentDir;
 
+            parentDir = TestResources.ResourceManager.GetString(parent);
+            path = TestResources.ResourceManager.GetString(day);
+            path = Path.Combine(parentDir, path);
 
-            testfile = TestResources.ResourceManager.GetString("Day7");
-            testfile = Path.Combine(parentDir, testfile);
-
-            Test_Day7 day7 = new Test_Day7(testfile);
-            day7.Test();
-
-            testfile = TestResources.ResourceManager.GetString("Day8");
-            testfile = Path.Combine(parentDir, testfile);
-
-            Test_Day8 day8 = new Test_Day8(testfile);
-            day8.Test();
-
-            testfile = TestResources.ResourceManager.GetString("Day9");
-            testfile = Path.Combine(parentDir, testfile);
-
-            Test_Day9 day9 = new Test_Day9(testfile);
-            day9.Test();
-
-            testfile = TestResources.ResourceManager.GetString("Day10");
-            testfile = Path.Combine(parentDir, testfile);
-
-            Test_Day10 day10 = new Test_Day10(testfile);
-            day10.Test();
+            return path;
         }
     }
 }

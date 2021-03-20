@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HackerRank_CSharp
+namespace HackerRank_CSharp._30_Days_of_Code
 {
     class Test_Day7 : Test_CodeChallenge, ICodeChallengeTest
     {
