@@ -32,7 +32,6 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         protected void ReadData(String filename)
         {
-            String line;
             string[] lines = { };
 
             if (!ReadInputFile(filename, ref lines))
@@ -40,16 +39,13 @@ namespace HackerRank_CSharp._30_Days_of_Code
                 System.Environment.Exit(-1);
             }
 
-            int num;
-            for (int i = 0; i < lines.Length; i += 1)
-            {
-                line = lines[i];
-                // Process line
+            ProcessData(lines);
+        }
 
-                num = int.Parse(line);
-                Usecases.Add(num);
-            }
-
+        protected override void ProcessDataLine(string line, int index)
+        {
+            int num = int.Parse(line);
+            Usecases.Add(num);
         }
 
         public List<int> Usecases { get; protected set; }

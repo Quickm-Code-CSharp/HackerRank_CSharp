@@ -34,7 +34,6 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         protected void ReadData(String filename)
         {
-            String      line;
             string[]    lines = { };
 
             if (!ReadInputFile(filename, ref lines))
@@ -42,30 +41,30 @@ namespace HackerRank_CSharp._30_Days_of_Code
                 System.Environment.Exit(-1);
             }
 
-            for (int i = 0; i < lines.Length; i += 1)
+            ProcessData(lines);
+        }
+
+        protected override void ProcessDataLine(string line, int index)
+        {
+            if (index == 0)
             {
-                line = lines[i];
-                // Process line
+                int n = int.Parse(line);
+                Count = n;
+            }
 
-                if (i == 0)
-                {
-                    int n = int.Parse(line);
-                    Count = n;
-                }
+            else if (index >= 1 && index <= Count)
+            {
+                string[] strings = line.Split(' ');
+                Data.Add(strings[0], strings[1]);
 
-                else if (i >= 1 && i <= Count)
-                {
-                    string[] strings = line.Split(' ');
-                    Data.Add(strings[0], strings[1]);
+            }
 
-                }
-
-                else if (i > Count)
-                {
-                    Usecases.Add(line);
-                }
+            else if (index > Count)
+            {
+                Usecases.Add(line);
             }
         }
+
 
         public int Count { get; protected set; }
         public Dictionary<string, string> Data { get; protected set; }

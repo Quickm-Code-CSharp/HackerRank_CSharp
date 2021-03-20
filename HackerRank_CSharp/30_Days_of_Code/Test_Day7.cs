@@ -24,8 +24,6 @@ namespace HackerRank_CSharp
 
         protected void ReadData(String filename)
         {
-            String      line;
-            int[]       nums;
             string[]    lines = { };
 
             if (!ReadInputFile(filename, ref lines))
@@ -33,26 +31,27 @@ namespace HackerRank_CSharp
                 System.Environment.Exit(-1);
             }
 
-            for (int i = 0; i < lines.Length; i += 1)
-            {
-                line = lines[i];
-                // Process line
-                switch (i)
-                {
-                    case 0:
-                        int n = int.Parse(line);
-                        Count = n;
-                        break;
-                    default:
-                        string[] strings    = line.Split(' ');
-                        nums                = Array.ConvertAll(strings, s => int.Parse(s));
-                        Data                = new List<int>(nums);
-                        break;
-                }
-            }
-
-
+            ProcessData(lines);
         }
+
+        protected override void ProcessDataLine(string line, int index)
+        {
+            int[] nums;
+
+            switch (index)
+            {
+                case 0:
+                    int n = int.Parse(line);
+                    Count = n;
+                    break;
+                default:
+                    string[] strings = line.Split(' ');
+                    nums = Array.ConvertAll(strings, s => int.Parse(s));
+                    Data = new List<int>(nums);
+                    break;
+            }
+        }
+
 
         public int          Count { get; protected set; }
         public List<int>    Data { get; protected set; }

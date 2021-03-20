@@ -6,7 +6,7 @@ using System.Text;
 
 namespace HackerRank_CSharp
 {
-    class Test_CodeChallenge
+    abstract class Test_CodeChallenge
     {
 
         protected String PrintList(List<int> list, char delimiter = ' ')
@@ -75,5 +75,21 @@ namespace HackerRank_CSharp
 
             return valid;
         }
+
+        protected void ProcessData(string[] lines)
+        {
+            string  line;
+
+            for (int i = 0; i < lines.Length; i += 1)
+            {
+                line = lines[i];
+
+                // Process line
+                ProcessDataLine(line, i);
+            }
+
+        }
+
+        protected abstract void ProcessDataLine(string line, int index);
     }
 }

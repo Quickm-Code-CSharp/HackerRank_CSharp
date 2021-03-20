@@ -24,7 +24,6 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         protected void ReadData(String filename)
         {
-            String line;
             string[] lines = { };
 
             if (!ReadInputFile(filename, ref lines))
@@ -32,31 +31,30 @@ namespace HackerRank_CSharp._30_Days_of_Code
                 System.Environment.Exit(-1);
             }
 
-            for (int i = 0; i < lines.Length; i += 1)
-            {
-                line = lines[i];
-                // Process line
-                switch (i)
-                {
-                    case 0:
-                        double n = double.Parse(line);
-                        Meal_Cost = n;
-                        break;
-                    case 1:
-                        int tip = int.Parse(line);
-                        Tip_Percent = tip;
-                        break;
-                    case 2:
-                        int tax = int.Parse(line);
-                        Tax_Percent = tax;
-                        break;
-                    default:
-                        break;
-                }
-            }
+            ProcessData(lines);
 
         }
 
+        protected override void ProcessDataLine(string line, int index)
+        {
+            switch (index)
+            {
+                case 0:
+                    double n = double.Parse(line);
+                    Meal_Cost = n;
+                    break;
+                case 1:
+                    int tip = int.Parse(line);
+                    Tip_Percent = tip;
+                    break;
+                case 2:
+                    int tax = int.Parse(line);
+                    Tax_Percent = tax;
+                    break;
+                default:
+                    break;
+            }
+        }
 
         public double Meal_Cost { get; protected set; }
         public int    Tax_Percent { get; protected set; }
