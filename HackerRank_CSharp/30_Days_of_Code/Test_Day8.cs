@@ -32,18 +32,6 @@ namespace HackerRank_CSharp._30_Days_of_Code
             Console.WriteLine(" ");
         }
 
-        protected void ReadData(String filename)
-        {
-            string[]    lines = { };
-
-            if (!ReadInputFile(filename, ref lines))
-            {
-                System.Environment.Exit(-1);
-            }
-
-            ProcessData(lines);
-        }
-
         protected override void ProcessDataLine(string line, int index)
         {
             if (index == 0)

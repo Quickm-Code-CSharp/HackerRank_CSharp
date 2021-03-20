@@ -28,19 +28,6 @@ namespace HackerRank_CSharp
 
         }
 
-        protected void ReadData(String filename)
-        {
-            string[]    lines = { };
-
-            if (!ReadInputFile(filename, ref lines))
-            {
-                System.Environment.Exit(-1);
-            }
-
-            ProcessData(lines);
-
-        }
-
         protected override void ProcessDataLine(string line, int index)
         {
             switch (index)

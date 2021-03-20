@@ -91,5 +91,18 @@ namespace HackerRank_CSharp
         }
 
         protected abstract void ProcessDataLine(string line, int index);
+
+        protected void ReadData(String filename)
+        {
+            string[] lines = { };
+
+            if (!ReadInputFile(filename, ref lines))
+            {
+                System.Environment.Exit(-1);
+            }
+
+            ProcessData(lines);
+
+        }
     }
 }
