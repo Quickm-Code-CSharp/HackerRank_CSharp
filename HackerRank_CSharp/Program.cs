@@ -56,6 +56,12 @@ namespace HackerRank_CSharp
 
             Test_Day9 day9 = new Test_Day9(testfile);
             day9.Test();
+
+            testfile = TestResources.ResourceManager.GetString("Day10");
+            testfile = Path.Combine(parentDir, testfile);
+
+            Test_Day10 day10 = new Test_Day10(testfile);
+            day10.Test();
         }
     }
 }
