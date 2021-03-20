@@ -9,6 +9,7 @@
     <None Remove="30_Days_of_Code\TestFile_Day2.txt" />
     <None Remove="30_Days_of_Code\TestFile_Day6.txt" />
     <None Remove="30_Days_of_Code\TestFile_Day8.txt" />
+    <None Remove="30_Days_of_Code\TestFile_Day9.txt" />
     <None Remove="TestFile_Day7_ArrayReverse.txt" />
   </ItemGroup>
 
@@ -23,6 +24,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="30_Days_of_Code\TestFile_Day8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="30_Days_of_Code\TestFile_Day9.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

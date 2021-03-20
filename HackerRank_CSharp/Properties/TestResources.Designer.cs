@@ -104,5 +104,14 @@ namespace HackerRank_CSharp.Properties {
                 return ResourceManager.GetString("Day8", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day9.txt.
+        /// </summary>
+        internal static string Day9 {
+            get {
+                return ResourceManager.GetString("Day9", resourceCulture);
+            }
+        }
     }
 }
