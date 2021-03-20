@@ -5,9 +5,9 @@ namespace HackerRank_CSharp
 {
     class Test_Day7 : Test_CodeChallenge, ICodeChallengeTest
     {
-        public Test_Day7(String filename)
+        public Test_Day7(String filename) : base(filename)
         {
-            ReadData(filename);
+            ProcessData(Lines);
         }
 
         public void Test()

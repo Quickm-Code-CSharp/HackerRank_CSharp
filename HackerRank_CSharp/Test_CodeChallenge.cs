@@ -8,11 +8,15 @@ namespace HackerRank_CSharp
 {
     abstract class Test_CodeChallenge
     {
+        protected Test_CodeChallenge(string filename)
+        {
+            ReadData(filename);
+        }
 
         protected String PrintList(List<int> list, char delimiter = ' ')
         {
-            string          str;
-            StringBuilder   sb  = new StringBuilder();
+            string str;
+            StringBuilder sb = new StringBuilder();
 
             foreach (int item in list)
             {
@@ -27,8 +31,8 @@ namespace HackerRank_CSharp
 
         protected String PrintList(List<string> list, char delimiter = ' ')
         {
-            string          str;
-            StringBuilder   sb  = new StringBuilder();
+            string str;
+            StringBuilder sb = new StringBuilder();
 
             foreach (var item in list)
             {
@@ -57,6 +61,22 @@ namespace HackerRank_CSharp
             return str;
         }
 
+        protected void ReadData(String filename)
+        {
+            string[] lines = { };
+
+            if (!ReadInputFile(filename, ref lines))
+            {
+                System.Environment.Exit(-1);
+            }
+
+            Lines = lines;
+
+            //ProcessData(lines);
+
+        }
+
+
         protected bool ReadInputFile(String filename, ref String[] data)
         {
             bool valid = true;
@@ -78,7 +98,7 @@ namespace HackerRank_CSharp
 
         protected void ProcessData(string[] lines)
         {
-            string  line;
+            string line;
 
             for (int i = 0; i < lines.Length; i += 1)
             {
@@ -92,17 +112,7 @@ namespace HackerRank_CSharp
 
         protected abstract void ProcessDataLine(string line, int index);
 
-        protected void ReadData(String filename)
-        {
-            string[] lines = { };
+        public string[] Lines { get; protected set; }
 
-            if (!ReadInputFile(filename, ref lines))
-            {
-                System.Environment.Exit(-1);
-            }
-
-            ProcessData(lines);
-
-        }
     }
 }

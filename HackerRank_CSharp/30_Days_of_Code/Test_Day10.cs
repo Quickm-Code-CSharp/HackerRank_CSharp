@@ -6,10 +6,10 @@ namespace HackerRank_CSharp._30_Days_of_Code
 {
     class Test_Day10 : Test_CodeChallenge, ICodeChallengeTest
     {
-        public Test_Day10(string filename)
+        public Test_Day10(string filename) : base(filename)
         {
             Usecases = new List<int>();
-            ReadData(filename);
+            ProcessData(Lines);
         }
 
         public void Test()
