@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using HackerRank_CSharp._30_Days_of_Code;
 
-namespace HackerRank_CSharp
+namespace HackerRank_CSharp._30_Days_of_Code
 {
     class Test_Day6 : Test_CodeChallenge, ICodeChallengeTest
     {
-        public Test_Day6(String filename)
+        public Test_Day6(string filename)
         {
             Data = new List<string>();
             ReadData(filename);
