@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace HackerRank_CSharp
 {
-    class Day7_Array_Reverse
+    class Day07_Array_Reverse
     {
         //Objective
         //Today, we will learn about the Array data structure.Check out the Tutorial tab for learning materials and an instructional video.

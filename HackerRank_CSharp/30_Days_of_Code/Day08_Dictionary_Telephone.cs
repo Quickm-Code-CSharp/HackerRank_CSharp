@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Day8_Dictionary_Telephone
+    class Day08_Dictionary_Telephone
     {
         public string FindName(Dictionary<string, string> data, string name)
         {

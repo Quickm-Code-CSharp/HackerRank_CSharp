@@ -13,7 +13,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         public void Test()
         {
-            Day2_Operators_MealCost cost = new Day2_Operators_MealCost();
+            Day02_Operators_MealCost cost = new Day02_Operators_MealCost();
 
             Console.WriteLine("Day 2: Operators Meal Cost: ");
             Console.WriteLine("Input:  Meal: {0} Tip Percent: {1} Tax Percent: {2}", Meal_Cost,Tip_Percent, Tax_Percent);

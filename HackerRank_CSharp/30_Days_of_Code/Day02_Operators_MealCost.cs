@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Day2_Operators_MealCost
+    class Day02_Operators_MealCost
     {
         public int ComputeTotalMealCost(double meal_cost, int tip_percent, int tax_percent)
         {

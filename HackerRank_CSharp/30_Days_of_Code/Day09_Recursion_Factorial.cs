@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Day9_Recursion_Factorial
+    class Day09_Recursion_Factorial
     {
         public ulong Factorial(int num)
         {

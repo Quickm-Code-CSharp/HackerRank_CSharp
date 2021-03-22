@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Day6_String_EvenOdd
+    class Day06_String_EvenOdd
     {
         public List<string> EvenOddStrings(List<string> strArr)
         {

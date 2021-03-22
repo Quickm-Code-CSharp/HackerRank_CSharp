@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="30_Days_of_Code\TestFile_Day02.txt" />
+    <None Remove="30_Days_of_Code\TestFile_Day06.txt" />
+    <None Remove="30_Days_of_Code\TestFile_Day08.txt" />
+    <None Remove="30_Days_of_Code\TestFile_Day09.txt" />
     <None Remove="30_Days_of_Code\TestFile_Day10.txt" />
-    <None Remove="30_Days_of_Code\TestFile_Day2.txt" />
-    <None Remove="30_Days_of_Code\TestFile_Day6.txt" />
-    <None Remove="30_Days_of_Code\TestFile_Day8.txt" />
-    <None Remove="30_Days_of_Code\TestFile_Day9.txt" />
     <None Remove="TestFile_Day7_ArrayReverse.txt" />
   </ItemGroup>
 
@@ -18,19 +18,19 @@
     <Content Include="30_Days_of_Code\TestFile_Day10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="30_Days_of_Code\TestFile_Day2.txt">
+    <Content Include="30_Days_of_Code\TestFile_Day02.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="30_Days_of_Code\TestFile_Day6.txt">
+    <Content Include="30_Days_of_Code\TestFile_Day06.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="30_Days_of_Code\TestFile_Day7.txt">
+    <Content Include="30_Days_of_Code\TestFile_Day07.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="30_Days_of_Code\TestFile_Day8.txt">
+    <Content Include="30_Days_of_Code\TestFile_Day08.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="30_Days_of_Code\TestFile_Day9.txt">
+    <Content Include="30_Days_of_Code\TestFile_Day09.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

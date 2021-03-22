@@ -79,7 +79,7 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day2.txt.
+        ///   Looks up a localized string similar to TestFile_Day02.txt.
         /// </summary>
         internal static string Day2 {
             get {
@@ -88,7 +88,7 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day6.txt.
+        ///   Looks up a localized string similar to TestFile_Day06.txt.
         /// </summary>
         internal static string Day6 {
             get {
@@ -97,7 +97,7 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day7.txt.
+        ///   Looks up a localized string similar to TestFile_Day07.txt.
         /// </summary>
         internal static string Day7 {
             get {
@@ -106,7 +106,7 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day8.txt.
+        ///   Looks up a localized string similar to TestFile_Day08.txt.
         /// </summary>
         internal static string Day8 {
             get {
@@ -115,7 +115,7 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day9.txt.
+        ///   Looks up a localized string similar to TestFile_Day09.txt.
         /// </summary>
         internal static string Day9 {
             get {

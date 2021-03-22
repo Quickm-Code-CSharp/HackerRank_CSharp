@@ -16,7 +16,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         public void Test()
         {
-            Day8_Dictionary_Telephone   finder  = new Day8_Dictionary_Telephone();
+            Day08_Dictionary_Telephone   finder  = new Day08_Dictionary_Telephone();
             Dictionary<string, string>  map     = Data;
 
             Console.WriteLine("Day 8: Dictionary Telephone: ");

@@ -14,7 +14,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
         {
             List<int> data = Data;
 
-            Day7_Array_Reverse reverse = new Day7_Array_Reverse();
+            Day07_Array_Reverse reverse = new Day07_Array_Reverse();
 
             Console.WriteLine("Day 7: Array Reverse: ");
             Console.WriteLine("Input:  {0}", PrintList(data));
