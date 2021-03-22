@@ -24,6 +24,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
                 Console.WriteLine("Usecase: {0}", usecase);
                 Console.WriteLine("Output:  {0}", binary.LongestBinaryCount(usecase));
             }
+            Console.WriteLine(" ");
         }
 
         protected override void ProcessDataLine(string line, int index)

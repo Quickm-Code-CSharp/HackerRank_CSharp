@@ -13,6 +13,31 @@ namespace HackerRank_CSharp
             ReadData(filename);
         }
 
+        protected String Print2DArray(int[,] arr)
+        {
+            string          str     = String.Empty;
+            int             dimSize = arr.GetLength(0);
+            StringBuilder   sb      = new StringBuilder();
+
+            sb.AppendLine();
+            for (int row = 0; row < dimSize; row++)
+            {
+                for (int col = 0; col < dimSize; col++)
+                {
+                    sb.AppendFormat("{0} ", arr[row, col].ToString());
+                }
+                if (row != dimSize-1)
+                {
+                    sb.AppendLine();
+                }
+            }
+
+            str = sb.ToString();
+
+
+            return str;
+        }
+
         protected String PrintList(List<int> list, char delimiter = ' ')
         {
             string str;

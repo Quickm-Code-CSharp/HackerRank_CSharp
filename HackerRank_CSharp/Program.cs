@@ -29,6 +29,7 @@ namespace HackerRank_CSharp
             Test_SingleDay(parentKey, "Day8", "Test_Day8");
             Test_SingleDay(parentKey, "Day9", "Test_Day9");
             Test_SingleDay(parentKey, "Day10", "Test_Day10");
+            Test_SingleDay(parentKey, "Day11", "Test_Day11");
         }
 
         private static void Test_SingleDay(string parentKey, string dayKey, string testClass)
