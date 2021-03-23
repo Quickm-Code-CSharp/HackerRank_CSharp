@@ -11,8 +11,6 @@ namespace HackerRank_CSharp._30_Days_of_Code
             Data     = new int[Dimension, Dimension];
             Usecases = new List<int[,]>();
             ProcessData(Lines);
-
-            Usecases.Add(Data);
         }
 
 
@@ -27,6 +25,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             {
                 Console.WriteLine("Usecase: {0}", Print2DArray(usecase));
                 Console.WriteLine("Output:  {0}", sum.FindMaxHourglassSum(usecase, Dimension));
+                Console.WriteLine(" ");
             }
 
             Console.WriteLine(" ");
@@ -47,11 +46,25 @@ namespace HackerRank_CSharp._30_Days_of_Code
             {
                 string[]    strings = line.Split(' ');
                 int         value;
+                int row = (index - 1) % Dimension;
 
                 for (int col = 0; col < Dimension; col++)
                 {
                     value = int.Parse(strings[col]);
-                    Data[index - 1, col] = value;    
+                    Data[row, col] = value;    
+                }
+
+                if (index % Dimension == 0)
+                {
+                    // Allocate new another 2D array to add to usecase list
+                    // Copy data
+                    // Add to Usecase list
+                    // Clear Data array for next usecase data
+                    int[,] usecase = new int[Dimension, Dimension];
+
+                    Array.Copy(Data, usecase, Data.Length);
+                    Usecases.Add(usecase);
+                    Array.Clear(Data, 0, Data.Length);
                 }
             }
         }

@@ -96,9 +96,6 @@ namespace HackerRank_CSharp
             }
 
             Lines = lines;
-
-            //ProcessData(lines);
-
         }
 
 
