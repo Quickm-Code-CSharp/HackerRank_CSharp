@@ -24,6 +24,7 @@ namespace HackerRank_CSharp
             const string parentKey = "30DaysOfCode";
 
             Test_SingleDay(parentKey, "Day2", "Test_Day2");
+            Test_SingleDay(parentKey, "Day5", "Test_Day05");
             Test_SingleDay(parentKey, "Day6", "Test_Day6");
             Test_SingleDay(parentKey, "Day7", "Test_Day7");
             Test_SingleDay(parentKey, "Day8", "Test_Day8");
