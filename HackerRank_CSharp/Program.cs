@@ -23,12 +23,12 @@ namespace HackerRank_CSharp
         {
             const string parentKey = "30DaysOfCode";
 
-            Test_SingleDay(parentKey, "Day2", "Test_Day2");
+            Test_SingleDay(parentKey, "Day2", "Test_Day02");
             Test_SingleDay(parentKey, "Day5", "Test_Day05");
-            Test_SingleDay(parentKey, "Day6", "Test_Day6");
-            Test_SingleDay(parentKey, "Day7", "Test_Day7");
-            Test_SingleDay(parentKey, "Day8", "Test_Day8");
-            Test_SingleDay(parentKey, "Day9", "Test_Day9");
+            Test_SingleDay(parentKey, "Day6", "Test_Day06");
+            Test_SingleDay(parentKey, "Day7", "Test_Day07");
+            Test_SingleDay(parentKey, "Day8", "Test_Day08");
+            Test_SingleDay(parentKey, "Day9", "Test_Day09");
             Test_SingleDay(parentKey, "Day10", "Test_Day10");
             Test_SingleDay(parentKey, "Day11", "Test_Day11");
         }

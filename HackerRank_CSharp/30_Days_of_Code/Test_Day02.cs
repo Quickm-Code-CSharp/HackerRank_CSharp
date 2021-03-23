@@ -4,9 +4,9 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Test_Day2 : Test_CodeChallenge, ICodeChallengeTest
+    class Test_Day02 : Test_CodeChallenge, ICodeChallengeTest
     {
-        public Test_Day2(string filename) : base(filename)
+        public Test_Day02(string filename) : base(filename)
         {
             ProcessData(Lines);
         }

@@ -15,7 +15,10 @@ namespace HackerRank_CSharp._30_Days_of_Code
             {
                 // cout << n << " x " << i << " = " << n * i << endl;
                 sb.AppendFormat("{0} x {1} = {2}", n, i, n * i);
-                sb.AppendLine();
+                if (i < 9)
+                {
+                    sb.AppendLine();
+                }
             }
 
             result = sb.ToString();

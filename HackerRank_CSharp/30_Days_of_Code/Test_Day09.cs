@@ -4,9 +4,9 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Test_Day9 : Test_CodeChallenge, ICodeChallengeTest
+    class Test_Day09 : Test_CodeChallenge, ICodeChallengeTest
     {
-        public Test_Day9(string filename) : base(filename)
+        public Test_Day09(string filename) : base(filename)
         {
             Usecases = new List<int>();
             ProcessData(Lines);

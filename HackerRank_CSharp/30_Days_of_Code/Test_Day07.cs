@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Test_Day7 : Test_CodeChallenge, ICodeChallengeTest
+    class Test_Day07 : Test_CodeChallenge, ICodeChallengeTest
     {
-        public Test_Day7(String filename) : base(filename)
+        public Test_Day07(String filename) : base(filename)
         {
             ProcessData(Lines);
         }
