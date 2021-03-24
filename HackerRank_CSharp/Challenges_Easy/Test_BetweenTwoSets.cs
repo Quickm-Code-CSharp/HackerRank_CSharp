@@ -36,10 +36,10 @@ namespace HackerRank_CSharp.Challenges_Easy
                     //skip
                     break;
                 case 1:
-                    Factors   = ProcessDataLineToList(line);
+                    Factors   = ConvertToList(line);
                     break;
                 case 2:
-                    Multiples = ProcessDataLineToList(line);
+                    Multiples = ConvertToList(line);
                     break;
                 default:
                     break;

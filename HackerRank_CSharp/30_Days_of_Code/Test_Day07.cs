@@ -24,18 +24,14 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         protected override void ProcessDataLine(string line, int index)
         {
-            int[] nums;
-
             switch (index)
             {
                 case 0:
-                    int n = int.Parse(line);
+                    int n = ConvertToInt(line);
                     Count = n;
                     break;
                 default:
-                    string[] strings = line.Split(' ');
-                    nums = Array.ConvertAll(strings, s => int.Parse(s));
-                    Data = new List<int>(nums);
+                    Data = ConvertToList(line);
                     break;
             }
         }

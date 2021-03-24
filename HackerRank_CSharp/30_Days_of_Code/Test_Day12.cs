@@ -34,16 +34,17 @@ namespace HackerRank_CSharp._30_Days_of_Code
                     string[] strings = line.Split(' ');
                     FirstName = strings[0];
                     LastName  = strings[1];
-                    int value = int.Parse(strings[2]);
+                    int value = ConvertToInt(strings[2]);
                     ID = value;
                     break;
                 case 1:
                     // skip
                     break;
                 case 2:
-                    string[] scoreStr = line.Split(' ');
-                    var scores = Array.ConvertAll(scoreStr, s => int.Parse(s));
-                    TestScores = new List<int>(scores);
+                    //string[] scoreStr = line.Split(' ');
+                    //var scores = Array.ConvertAll(scoreStr, s => int.Parse(s));
+                    TestScores = ConvertToList(line);
+
                     break;
                 default:
                     break;

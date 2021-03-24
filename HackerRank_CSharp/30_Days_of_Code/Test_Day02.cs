@@ -27,15 +27,15 @@ namespace HackerRank_CSharp._30_Days_of_Code
             switch (index)
             {
                 case 0:
-                    double n = double.Parse(line);
+                    double n = ConvertToDouble(line);
                     Meal_Cost = n;
                     break;
                 case 1:
-                    int tip = int.Parse(line);
+                    int tip = ConvertToInt(line);
                     Tip_Percent = tip;
                     break;
                 case 2:
-                    int tax = int.Parse(line);
+                    int tax = ConvertToInt(line);
                     Tax_Percent = tax;
                     break;
                 default:

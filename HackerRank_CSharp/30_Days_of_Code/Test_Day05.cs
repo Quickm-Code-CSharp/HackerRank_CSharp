@@ -31,7 +31,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         protected override void ProcessDataLine(string line, int index)
         {
-            int value = int.Parse(line);
+            int value = ConvertToInt(line);
             Usecases.Add(value);
         }
 

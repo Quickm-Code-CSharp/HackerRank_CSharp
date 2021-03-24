@@ -36,7 +36,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
                     //skip
                     break;
                 default:
-                    int n = int.Parse(line);
+                    int n = ConvertToInt(line);
                     Data.Add(n);
                     break;
             }

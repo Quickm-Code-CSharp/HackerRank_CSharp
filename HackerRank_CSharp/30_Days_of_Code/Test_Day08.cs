@@ -36,7 +36,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
         {
             if (index == 0)
             {
-                int n = int.Parse(line);
+                int n = ConvertToInt(line);
                 Count = n;
             }
 

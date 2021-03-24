@@ -32,7 +32,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             switch (index)
             {
                 case 0:
-                    int n = int.Parse(line);
+                    int n = ConvertToInt(line);
                     Count = n;
                     break;
                 default:

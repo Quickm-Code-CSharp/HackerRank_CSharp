@@ -36,7 +36,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             // This processes only 1 usecase
             if (index == 0)
             {
-                int num = int.Parse(line);
+                int num = ConvertToInt(line);
                 Dimension = num;
 
                 Data = new int[Dimension, Dimension];

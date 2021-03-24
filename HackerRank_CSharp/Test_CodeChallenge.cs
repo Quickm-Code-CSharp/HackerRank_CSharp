@@ -134,7 +134,7 @@ namespace HackerRank_CSharp
 
         protected abstract void ProcessDataLine(string line, int index);
 
-        protected List<int> ProcessDataLineToList(string line)
+        protected List<int> ConvertToList(string line)
         {
             string[]    scoreStr    = line.Split(' ');
             var         array       = Array.ConvertAll(scoreStr, s => int.Parse(s));
@@ -142,6 +142,78 @@ namespace HackerRank_CSharp
             List<int> list          = new List<int>(array);
 
             return list;
+        }
+
+        protected int ConvertToInt(string line)
+        {
+            int value = 0;
+
+            bool valid = true;
+
+            try
+            {
+                value = int.Parse(line);
+            }
+
+            catch(FormatException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.Message);
+                valid = false;
+            }
+
+            catch(ArgumentNullException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.Message);
+                valid = false;
+            }
+
+            catch (OverflowException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.Message);
+                valid = false;
+            }
+
+            finally
+            {
+                if(!valid) { System.Environment.Exit(-1); }
+            }
+
+            return value;
+        }
+
+        protected double ConvertToDouble(string line)
+        {
+            double value = 0.0;
+            bool valid = true;
+            try
+            {
+                value = double.Parse(line);
+            }
+
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.Message);
+                valid = false;
+            }
+
+            catch (ArgumentNullException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.Message);
+                valid = false;
+            }
+
+            catch (OverflowException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.Message);
+                valid = false;
+            }
+
+            finally
+            {
+                if (!valid) { System.Environment.Exit(-1); }
+            }
+
+            return value;
         }
 
         public string[] Lines { get; protected set; }
