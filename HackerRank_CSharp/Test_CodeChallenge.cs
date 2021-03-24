@@ -134,6 +134,16 @@ namespace HackerRank_CSharp
 
         protected abstract void ProcessDataLine(string line, int index);
 
+        protected List<int> ProcessDataLineToList(string line)
+        {
+            string[]    scoreStr    = line.Split(' ');
+            var         array       = Array.ConvertAll(scoreStr, s => int.Parse(s));
+
+            List<int> list          = new List<int>(array);
+
+            return list;
+        }
+
         public string[] Lines { get; protected set; }
 
     }

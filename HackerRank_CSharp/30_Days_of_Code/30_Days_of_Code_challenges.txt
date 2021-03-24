@@ -1,5 +1,7 @@
-﻿The list of challenges were originally coded in C++.  Challenge solution with 
-dates have been coded in C# and exist in this solution.
+﻿The list of challenges is from the 30 Days of Coding code challenges on HackerRank 
+website.  The challenge solutions were originally coded in C++ on the website.  
+
+Day challenges with dates have been implemented in C# and add to this project.
 
 Challenge:    C# Date:          Class
 Day 1		  Not retained      N/A
@@ -17,3 +19,18 @@ Day 12        03/23/2021        Inheritance_Students
 Day 13        Not Retained      N/A
 Day 14        Not Retained      N/A
 Day 15        03/23/2021        LinkedList
+Day 16
+Day 17
+Day 18
+Day 19
+Day 20
+Day 21
+Day 22
+Day 23
+Day 24
+Day 25
+Day 26
+Day 27
+Day 28
+Day 29
+Day 30

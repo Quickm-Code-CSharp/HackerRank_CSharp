@@ -1,0 +1,17 @@
+﻿The list of challenges rated with easy difficulty level on HackerRank 
+website.  The challenge solutions were originally coded in C++ on the website.  
+
+The Easy challenges with dates have been implemented in C# and added to this project.
+
+Challenge:                  C# Date:        Class
+Between Two Sets            03/24/2021      Algorithm_BetweenTwoSets
+Number Line Jumps
+Apple and Orange
+Grading Students
+Birthday Cake Candles
+Mini Max Sum
+StairCase
+Plus Minus
+Diagonal Difference
+Compare the Triplets
+Simple Array Sum

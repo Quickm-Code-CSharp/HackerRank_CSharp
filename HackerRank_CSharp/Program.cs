@@ -14,28 +14,40 @@ namespace HackerRank_CSharp
             Console.WriteLine("Welcome to HackerRank code challenges!");
             Console.WriteLine(" ");
 
-
             Test_30_Days();
-
+            Test_Easy_Challenges();
         }
 
         private static void Test_30_Days()
         {
-            const string parentKey = "30DaysOfCode";
+            const string parentKey    = "30DaysOfCode";
+            const string namespaceKey = "_30_Days_of_Code";
 
-            Test_SingleDay(parentKey, "Day2", "Test_Day02");
-            Test_SingleDay(parentKey, "Day5", "Test_Day05");
-            Test_SingleDay(parentKey, "Day6", "Test_Day06");
-            Test_SingleDay(parentKey, "Day7", "Test_Day07");
-            Test_SingleDay(parentKey, "Day8", "Test_Day08");
-            Test_SingleDay(parentKey, "Day9", "Test_Day09");
-            Test_SingleDay(parentKey, "Day10", "Test_Day10");
-            Test_SingleDay(parentKey, "Day11", "Test_Day11");
-            Test_SingleDay(parentKey, "Day12", "Test_Day12");
-            Test_SingleDay(parentKey, "Day15", "Test_Day15");
+            Console.WriteLine("30 Days of Coding Challenges:");
+
+            Test_SingleDay(parentKey, namespaceKey ,"Day2", "Test_Day02");
+            Test_SingleDay(parentKey, namespaceKey, "Day5", "Test_Day05");
+            Test_SingleDay(parentKey, namespaceKey, "Day6", "Test_Day06");
+            Test_SingleDay(parentKey, namespaceKey, "Day7", "Test_Day07");
+            Test_SingleDay(parentKey, namespaceKey, "Day8", "Test_Day08");
+            Test_SingleDay(parentKey, namespaceKey, "Day9", "Test_Day09");
+            Test_SingleDay(parentKey, namespaceKey, "Day10", "Test_Day10");
+            Test_SingleDay(parentKey, namespaceKey, "Day11", "Test_Day11");
+            Test_SingleDay(parentKey, namespaceKey, "Day12", "Test_Day12");
+            Test_SingleDay(parentKey, namespaceKey, "Day15", "Test_Day15");
         }
 
-        private static void Test_SingleDay(string parentKey, string dayKey, string testClass)
+        private static void Test_Easy_Challenges()
+        {
+            const string parentKey      = "Challenges_Easy";
+            const string namespaceKey   = "Challenges_Easy";
+
+            Console.WriteLine("Easy Challenges:");
+
+            Test_SingleDay(parentKey, namespaceKey, "BetweenTwoSets", "Test_BetweenTwoSets");
+        }
+
+        private static void Test_SingleDay(string parentKey, string namespaceKey, string dayKey, string testClass)
         {
             string          testfile;
             StringBuilder   sb          = new StringBuilder();
@@ -44,7 +56,7 @@ namespace HackerRank_CSharp
             testfile = GetTestFilePath(parentKey, dayKey);
 
             // Get type for test class
-            sb.AppendFormat("{0}.{1}.{2}", "HackerRank_CSharp", "_30_Days_of_Code", testClass);
+            sb.AppendFormat("{0}.{1}.{2}", "HackerRank_CSharp", namespaceKey, testClass);
             testClass = sb.ToString();
             Type t = Type.GetType(testClass);
 

@@ -70,6 +70,24 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_BetweenTwoSets.txt.
+        /// </summary>
+        internal static string BetweenTwoSets {
+            get {
+                return ResourceManager.GetString("BetweenTwoSets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Challenges_Easy.
+        /// </summary>
+        internal static string Challenges_Easy {
+            get {
+                return ResourceManager.GetString("Challenges_Easy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_Day10.txt.
         /// </summary>
         internal static string Day10 {
