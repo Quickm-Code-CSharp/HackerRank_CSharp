@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HackerRank_CSharp.Support;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -31,7 +32,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         protected override void ProcessDataLine(string line, int index)
         {
-            int n = 0;
+            int n;
 
             switch (index)
             {

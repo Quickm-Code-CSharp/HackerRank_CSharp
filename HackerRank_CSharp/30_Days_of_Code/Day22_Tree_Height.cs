@@ -1,23 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using HackerRank_CSharp.Support;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Node_Tree
-    {
-        public int Key;
-        public Node_Tree Left;
-        public Node_Tree Right;
-
-        public Node_Tree(int item)
-        {
-            Key = item;
-            Left = null;
-            Right = null;
-        }
-
-    }
 
     class Day22_Tree_Height
     {
