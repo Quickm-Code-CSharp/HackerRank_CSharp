@@ -4,28 +4,28 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Node
+    class Node_LinkedList
     {
-        public Node(int d)
+        public Node_LinkedList(int d)
         {
             Data = d;
             Next = null;
         }
 
         public int Data { get;  protected set; }
-        public Node Next { get;   set; }
+        public Node_LinkedList Next { get;   set; }
 
     };
     class Day15_LinkedList
     {
-        public Node Insert(Node head, int data)
+        public Node_LinkedList Insert(Node_LinkedList head, int data)
         {
-            Node nextNode = new Node(data);
+            Node_LinkedList nextNode = new Node_LinkedList(data);
 
             //Complete this method
             if (head != null)
             {
-                Node tail = head;
+                Node_LinkedList tail = head;
 
                 while (tail.Next != null)
                 {
@@ -43,10 +43,10 @@ namespace HackerRank_CSharp._30_Days_of_Code
             return head;
         }
 
-        public string Display(Node head)
+        public string Display(Node_LinkedList head)
         {
             string          result  = String.Empty;
-            Node            start   = head;
+            Node_LinkedList            start   = head;
             StringBuilder   sb      = new StringBuilder();
 
             while (start != null)

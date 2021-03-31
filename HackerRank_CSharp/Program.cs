@@ -35,6 +35,7 @@ namespace HackerRank_CSharp
             Test_SingleDay(parentKey, namespaceKey, "Day11", "Test_Day11");
             Test_SingleDay(parentKey, namespaceKey, "Day12", "Test_Day12");
             Test_SingleDay(parentKey, namespaceKey, "Day15", "Test_Day15");
+            Test_SingleDay(parentKey, namespaceKey, "Day22", "Test_Day22");
         }
 
         private static void Test_Easy_Challenges()
