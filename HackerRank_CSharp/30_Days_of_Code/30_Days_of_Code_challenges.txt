@@ -1,13 +1,13 @@
 ﻿The list of challenges is from the 30 Days of Coding code challenges on HackerRank 
-website.  The challenge solutions were originally coded in C++ on the website.  
+website.  I originally coded the challenge solutions in C++ on the website.  
 
 Day challenges with dates have been implemented in C# and add to this project.
 
-Challenge:    C# Date:          Class
-Day 1		  Not retained      N/A
+Challenge:    C# Date:          Class                       Topic
+Day 1		  Not retained                                  Data Types
 Day 2         03/16/2021        Operators_MealCost           
-Day 3         Not retained      N/A
-Day 4		  Not retained      N/A
+Day 3         Not retained                                  Conditional Statements
+Day 4		  Not retained                                  Class vs Instance
 Day 5		  03/22/2021        Math_MultiplyTable
 Day 6		  03/16/2021        String_EvenOdd		
 Day 7		  03/16/2021		Array_Reverse
@@ -16,17 +16,17 @@ Day 9         03/19/2021        Recursion_Factorial
 Day 10        03/20/2021        String_BinaryNumbers
 Day 11        03/22/2021        Array_HourglassSum
 Day 12        03/23/2021        Inheritance_Students
-Day 13        Not Retained      N/A
-Day 14        Not Retained      N/A
+Day 13        Not Retained                                  Abstract Classes
+Day 14        Not Retained                                  Scope
 Day 15        03/23/2021        LinkedList
-Day 16
-Day 17
-Day 18
-Day 19
-Day 20
-Day 21
-Day 22          03/30/2021      Tree_Height
-Day 23
+Day 16        Not Retained                                  Exceptions - catch
+Day 17        Not Retained                                  Exception  - create and throw
+Day 18        Yes                                           Queues and Stacks
+Day 19        Not Retained                                  Interfaces
+Day 20        Yes                                           Sorting - Bubble Sort
+Day 21        Not Retained                                  Generics
+Day 22        03/30/2021        Tree_Height
+Day 23        03/31/2021        Tree_LevelOrderTraversal
 Day 24
 Day 25
 Day 26
