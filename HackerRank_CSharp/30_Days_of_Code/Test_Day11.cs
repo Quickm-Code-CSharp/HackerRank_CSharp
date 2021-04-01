@@ -23,7 +23,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             Console.WriteLine("Test Usecases: ");
             foreach (var usecase in Usecases)
             {
-                Console.WriteLine("Usecase: {0}", Print2DArray(usecase));
+                Console.WriteLine("Usecase: {0}", Print2DArray<int>(usecase));
                 Console.WriteLine("Output:  {0}", sum.FindMaxHourglassSum(usecase, Dimension));
                 Console.WriteLine(" ");
             }

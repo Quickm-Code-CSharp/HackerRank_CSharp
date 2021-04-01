@@ -24,7 +24,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             Console.WriteLine("Day 22: Binary Tree: Height: ");
 
             Console.WriteLine("Input:  ");
-            Console.WriteLine("{0}", PrintList(Data));
+            Console.WriteLine("{0}", PrintList<int>(Data));
             Console.WriteLine("Output:  ");
             Console.WriteLine("{0}", tree.GetHeight(Head));
             Console.WriteLine(" ");

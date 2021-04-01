@@ -20,7 +20,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
             Console.WriteLine("Input:  ");
             Console.WriteLine("{0}", students.ToString());
-            Console.WriteLine("Scores: {0}", PrintList(TestScores));
+            Console.WriteLine("Scores: {0}", PrintList<int>(TestScores));
             Console.WriteLine("Output:  ");
             Console.WriteLine("Grade: {0}", students.Calculate());
             Console.WriteLine(" ");
@@ -41,10 +41,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
                     // skip
                     break;
                 case 2:
-                    //string[] scoreStr = line.Split(' ');
-                    //var scores = Array.ConvertAll(scoreStr, s => int.Parse(s));
                     TestScores = ConvertToList(line);
-
                     break;
                 default:
                     break;

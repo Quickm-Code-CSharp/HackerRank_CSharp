@@ -21,8 +21,8 @@ namespace HackerRank_CSharp.Challenges_Easy
 
 
             Console.WriteLine("Input:  ");
-            Console.WriteLine("Factors: {0}", PrintList(Factors));
-            Console.WriteLine("Multiples: {0}", PrintList(Multiples));
+            Console.WriteLine("Factors: {0}", PrintList<int>(Factors));
+            Console.WriteLine("Multiples: {0}", PrintList<int>(Multiples));
             Console.WriteLine("Output:  ");
             Console.WriteLine("Count: {0}", between.GetBetweenCount(Factors, Multiples));
             Console.WriteLine(" ");

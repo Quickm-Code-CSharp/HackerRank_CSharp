@@ -14,9 +14,9 @@ namespace HackerRank_CSharp
         }
 
         #region Printout Methods
-        protected String Print2DArray(int[,] arr)
+        protected String Print2DArray<T>(T[,] arr)
         {
-            string          str     = String.Empty;
+            string          str;
             int             dimSize = arr.GetLength(0);
             StringBuilder   sb      = new StringBuilder();
 
@@ -39,12 +39,12 @@ namespace HackerRank_CSharp
             return str;
         }
 
-        protected String PrintList(List<int> list, char delimiter = ' ')
+        protected String PrintList<T>(List<T> list, char delimiter = ' ')
         {
             string str;
             StringBuilder sb = new StringBuilder();
 
-            foreach (int item in list)
+            foreach (T item in list)
             {
                 sb = sb.AppendFormat("{0}{1}", item.ToString(), delimiter);
             }
@@ -55,21 +55,6 @@ namespace HackerRank_CSharp
             return str;
         }
 
-        protected String PrintList(List<string> list, char delimiter = ' ')
-        {
-            string str;
-            StringBuilder sb = new StringBuilder();
-
-            foreach (var item in list)
-            {
-                sb = sb.AppendFormat("{0}{1}", item, delimiter);
-            }
-
-            str = sb.ToString();
-            str = str.Trim(delimiter);
-
-            return str;
-        }
 
         protected String PrintDictionary(Dictionary<String, String> dict, char delimiter = ' ')
         {
