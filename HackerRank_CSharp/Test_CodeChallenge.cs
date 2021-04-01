@@ -13,6 +13,7 @@ namespace HackerRank_CSharp
             ReadData(filename);
         }
 
+        #region Printout Methods
         protected String Print2DArray(int[,] arr)
         {
             string          str     = String.Empty;
@@ -85,7 +86,9 @@ namespace HackerRank_CSharp
 
             return str;
         }
+        #endregion
 
+        #region TestFile Methods
         protected void ReadData(String filename)
         {
             string[] lines = { };
@@ -97,7 +100,6 @@ namespace HackerRank_CSharp
 
             Lines = lines;
         }
-
 
         protected bool ReadInputFile(String filename, ref String[] data)
         {
@@ -215,6 +217,7 @@ namespace HackerRank_CSharp
 
             return value;
         }
+        #endregion
 
         public string[] Lines { get; protected set; }
 
