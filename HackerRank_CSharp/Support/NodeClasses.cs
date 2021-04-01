@@ -6,16 +6,16 @@ namespace HackerRank_CSharp.Support
 {
     class Node_Tree
     {
-        public int Key;
-        public Node_Tree Left;
-        public Node_Tree Right;
-
         public Node_Tree(int item)
         {
-            Key = item;
+            Data = item;
             Left = null;
             Right = null;
         }
+
+        public int       Data    { get; protected set; }
+        public Node_Tree Left   { get; set; }
+        public Node_Tree Right  { get; set; }
 
     }
 

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    class Test_Day22 : Test_CodeChallenge, ICodeChallengeTest
+    class Test_Day23 : Test_CodeChallenge, ICodeChallengeTest
     {
-        public Test_Day22(string filename) : base(filename)
+        public Test_Day23(string filename) : base(filename)
         {
             Data = new List<int>();
             Head = null;
@@ -17,16 +17,16 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
         public void Test()
         {
-            Day22_Tree_Height tree = new Day22_Tree_Height();
+            Day23_Tree_LevelOrderTraversal tree = new Day23_Tree_LevelOrderTraversal();
 
             InsertData(tree);
 
-            Console.WriteLine("Day 22: Binary Tree: Height: ");
+            Console.WriteLine("Day 23: Binary Tree: Level Order Traversal: ");
 
             Console.WriteLine("Input:  ");
             Console.WriteLine("{0}", PrintList(Data));
             Console.WriteLine("Output:  ");
-            Console.WriteLine("{0}", tree.GetHeight(Head));
+            Console.WriteLine("{0}", tree.PrintLevelOrder(Head));
             Console.WriteLine(" ");
         }
 
@@ -59,5 +59,6 @@ namespace HackerRank_CSharp._30_Days_of_Code
         public int       Count { get; protected set; }
         public List<int> Data { get; protected set; }
         public Node_Tree Head { get; protected set; }
+
     }
 }

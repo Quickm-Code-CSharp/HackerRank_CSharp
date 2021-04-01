@@ -5,18 +5,6 @@ using System.Text;
 
 namespace HackerRank_CSharp._30_Days_of_Code
 {
-    //class Node_LinkedList
-    //{
-    //    public Node_LinkedList(int d)
-    //    {
-    //        Data = d;
-    //        Next = null;
-    //    }
-
-    //    public int Data { get;  protected set; }
-    //    public Node_LinkedList Next { get;   set; }
-
-    //};
     class Day15_LinkedList
     {
         public Node_LinkedList Insert(Node_LinkedList head, int data)

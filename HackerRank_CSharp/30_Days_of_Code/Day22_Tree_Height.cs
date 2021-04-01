@@ -6,35 +6,8 @@ using HackerRank_CSharp.Support;
 namespace HackerRank_CSharp._30_Days_of_Code
 {
 
-    class Day22_Tree_Height
+    class Day22_Tree_Height : BinaryTree
     {
-
-        public Node_Tree InsertTreeNode(Node_Tree node, int data)
-        {
-            if (node == null)
-            {
-                node = new Node_Tree(data);
-            }
-
-            else
-            {
-                Node_Tree current = null;
-
-                if (data <= node.Key)
-                {
-                    current = InsertTreeNode(node.Left, data);
-                    node.Left = current;
-                }
-                else
-                {
-                    current = InsertTreeNode(node.Right, data);
-                    node.Right = current;
-                }
-            }
-
-            return node;
-        }
-
         public int GetHeight(Node_Tree node)
         {
             int height = 0;

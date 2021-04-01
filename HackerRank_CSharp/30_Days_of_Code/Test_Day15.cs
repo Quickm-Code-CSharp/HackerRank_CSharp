@@ -51,7 +51,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             }
         }
 
-        public List<int> Data { get; protected set; }
+        public List<int>            Data { get; protected set; }
         public Node_LinkedList      Head { get; protected set; }
     }
 }
