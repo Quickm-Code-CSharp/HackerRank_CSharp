@@ -19,6 +19,7 @@
     <None Remove="30_Days_of_Code\TestFile_Day20.txt" />
     <None Remove="30_Days_of_Code\TestFile_Day22.txt" />
     <None Remove="30_Days_of_Code\TestFile_Day23.txt" />
+    <None Remove="30_Days_of_Code\TestFile_Day24.txt" />
     <None Remove="30_Days_of_Code\TestFile_Day25.txt" />
     <None Remove="Challenges_Easy\TestFile_BetweenTwoSets.txt" />
     <None Remove="Challenges_Easy\TestFile_NumberLineJumps.txt" />
@@ -66,6 +67,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="30_Days_of_Code\TestFile_Day23.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="30_Days_of_Code\TestFile_Day24.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="30_Days_of_Code\TestFile_Day25.txt">

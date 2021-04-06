@@ -169,6 +169,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day24.txt.
+        /// </summary>
+        internal static string Day24 {
+            get {
+                return ResourceManager.GetString("Day24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_Day25.txt.
         /// </summary>
         internal static string Day25 {

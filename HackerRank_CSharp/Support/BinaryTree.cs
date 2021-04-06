@@ -31,6 +31,5 @@ namespace HackerRank_CSharp.Support
 
             return node;
         }
-
     }
 }

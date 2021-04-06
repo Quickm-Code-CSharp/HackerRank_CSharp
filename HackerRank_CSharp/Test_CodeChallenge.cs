@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using HackerRank_CSharp.Support;
 
 namespace HackerRank_CSharp
 {
@@ -53,6 +54,25 @@ namespace HackerRank_CSharp
             str = str.Trim(delimiter);
 
             return str;
+        }
+
+        protected string PrintLinkedList(Node_LinkedList head)
+        {
+            string result;
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendFormat("{0} ", head.Data);
+            while (head.Next != null)
+            {
+                head = head.Next;
+                sb.AppendFormat("{0} ", head.Data);
+            }
+
+            result = sb.ToString();
+
+            return result;
+
         }
 
 

@@ -153,6 +153,9 @@
   <data name="Day23" xml:space="preserve">
     <value>TestFile_Day23.txt</value>
   </data>
+  <data name="Day24" xml:space="preserve">
+    <value>TestFile_Day24.txt</value>
+  </data>
   <data name="Day25" xml:space="preserve">
     <value>TestFile_Day25.txt</value>
   </data>

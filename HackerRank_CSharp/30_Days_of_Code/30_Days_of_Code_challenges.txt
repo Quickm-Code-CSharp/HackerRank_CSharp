@@ -27,7 +27,7 @@ Day 20        04/01/2021        Sort_BubbleSort             Sorting - Bubble Sor
 Day 21        Not Retained                                  Generics
 Day 22        03/30/2021        Tree_Height
 Day 23        03/31/2021        Tree_LevelOrderTraversal
-Day 24
+Day 24        04/05/2021        LinkedList_RemoveDuplicate  Linked Lists
 Day 25        04/05/2021        Math_PrimeNumber            
 Day 26
 Day 27
