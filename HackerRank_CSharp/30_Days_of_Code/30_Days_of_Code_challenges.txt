@@ -4,6 +4,7 @@ website.  I originally coded the challenge solutions in C++ on the website.
 Day challenges with dates have been implemented in C# and add to this project.
 
 Challenge:    C# Date:          Class                       Topic
+Day 0         Not retained                                  Hello World
 Day 1		  Not retained                                  Data Types
 Day 2         03/16/2021        Operators_MealCost           
 Day 3         Not retained                                  Conditional Statements
@@ -30,7 +31,6 @@ Day 23        03/31/2021        Tree_LevelOrderTraversal
 Day 24        04/05/2021        LinkedList_RemoveDuplicate  Linked Lists
 Day 25        04/05/2021        Math_PrimeNumber            
 Day 26        04/07/2021        Math_NestedLogic            Tiered library fines
-Day 27
-Day 28
-Day 29
-Day 30
+Day 27        Not Retained                                  Unit test methods
+Day 28        04/07/2021        String_EmailAddress         Regex, Patterns
+Day 29        04/07/2021        Bitwise_MaxAnd              Bitwise operate
