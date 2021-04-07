@@ -15,7 +15,7 @@ namespace HackerRank_CSharp
             Console.WriteLine(" ");
 
             Test_30_Days();
-            //Test_Easy_Challenges();
+            Test_Easy_Challenges();
         }
 
         private static void Test_30_Days()
@@ -41,6 +41,7 @@ namespace HackerRank_CSharp
             Test_SingleDay(parentKey, namespaceKey, "Day23", "Test_Day23");
             Test_SingleDay(parentKey, namespaceKey, "Day24", "Test_Day24");
             Test_SingleDay(parentKey, namespaceKey, "Day25", "Test_Day25");
+            Test_SingleDay(parentKey, namespaceKey, "Day26", "Test_Day26");
         }
 
         private static void Test_Easy_Challenges()
