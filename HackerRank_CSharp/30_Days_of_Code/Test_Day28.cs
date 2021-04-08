@@ -40,7 +40,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
             switch (index)
             {
                 case 0:
-                    ConvertToInt(line);
+                    Count = ConvertToInt(line);
                     break;
                 default:
                     fields = line.Split(' ');
