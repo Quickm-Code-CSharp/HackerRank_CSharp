@@ -6,7 +6,7 @@ The Easy challenges with dates have been implemented in C# and added to this pro
 Challenge:                  C# Date:        Class
 Between Two Sets            03/24/2021      Algorithm_BetweenTwoSets
 Number Line Jumps           03/31/2021      Algorithm_NumberLineJumps
-Apple and Orange
+Apple and Orange            04/08/2021      Algorithm_AppleOrange
 Grading Students
 Birthday Cake Candles
 Mini Max Sum

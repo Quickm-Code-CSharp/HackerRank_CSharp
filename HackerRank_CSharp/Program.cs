@@ -53,8 +53,9 @@ namespace HackerRank_CSharp
 
             Console.WriteLine("Easy Challenges:");
 
-            Test_SingleDay(parentKey, namespaceKey, "BetweenTwoSets", "Test_BetweenTwoSets");
+            Test_SingleDay(parentKey, namespaceKey, "BetweenTwoSets",  "Test_BetweenTwoSets");
             Test_SingleDay(parentKey, namespaceKey, "NumberLineJumps", "Test_NumberLineJumps");
+            Test_SingleDay(parentKey, namespaceKey, "AppleOrange",     "Test_AppleOrange");
         }
 
         private static void Test_SingleDay(string parentKey, string namespaceKey, string dayKey, string testClass)

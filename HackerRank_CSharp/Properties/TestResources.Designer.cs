@@ -70,6 +70,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_AppleOrange.txt.
+        /// </summary>
+        internal static string AppleOrange {
+            get {
+                return ResourceManager.GetString("AppleOrange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_BetweenTwoSets.txt.
         /// </summary>
         internal static string BetweenTwoSets {
