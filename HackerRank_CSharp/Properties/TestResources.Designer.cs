@@ -268,6 +268,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_GradeStudents.txt.
+        /// </summary>
+        internal static string GradeStudents {
+            get {
+                return ResourceManager.GetString("GradeStudents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_NumberLineJumps.txt.
         /// </summary>
         internal static string NumberLineJumps {

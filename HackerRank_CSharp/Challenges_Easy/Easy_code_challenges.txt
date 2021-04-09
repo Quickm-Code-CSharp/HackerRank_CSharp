@@ -7,7 +7,7 @@ Challenge:                  C# Date:        Class
 Between Two Sets            03/24/2021      Algorithm_BetweenTwoSets
 Number Line Jumps           03/31/2021      Algorithm_NumberLineJumps
 Apple and Orange            04/08/2021      Algorithm_AppleOrange
-Grading Students
+Grading Students            04/08/2021      Algorithm_GradeStudents
 Birthday Cake Candles
 Mini Max Sum
 StairCase

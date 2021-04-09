@@ -12,7 +12,6 @@ namespace HackerRank_CSharp.Challenges_Easy
             Oranges = new List<int>();
 
             ProcessData(Lines);
-
         }
 
         public void Test()

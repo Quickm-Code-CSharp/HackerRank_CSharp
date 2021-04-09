@@ -26,6 +26,7 @@
     <None Remove="30_Days_of_Code\TestFile_Day29.txt" />
     <None Remove="Challenges_Easy\TestFile_AppleOrange.txt" />
     <None Remove="Challenges_Easy\TestFile_BetweenTwoSets.txt" />
+    <None Remove="Challenges_Easy\TestFile_GradeStudents.txt" />
     <None Remove="Challenges_Easy\TestFile_NumberLineJumps.txt" />
     <None Remove="TestFile_Day7_ArrayReverse.txt" />
   </ItemGroup>
@@ -92,6 +93,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges_Easy\TestFile_BetweenTwoSets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Challenges_Easy\TestFile_GradeStudents.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges_Easy\TestFile_NumberLineJumps.txt">
