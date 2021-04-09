@@ -286,6 +286,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_MinMaxSum.txt.
+        /// </summary>
+        internal static string MinMaxSum {
+            get {
+                return ResourceManager.GetString("MinMaxSum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_NumberLineJumps.txt.
         /// </summary>
         internal static string NumberLineJumps {

@@ -192,6 +192,9 @@
   <data name="GradeStudents" xml:space="preserve">
     <value>TestFile_GradeStudents.txt</value>
   </data>
+  <data name="MinMaxSum" xml:space="preserve">
+    <value>TestFile_MinMaxSum.txt</value>
+  </data>
   <data name="NumberLineJumps" xml:space="preserve">
     <value>TestFile_NumberLineJumps.txt</value>
   </data>

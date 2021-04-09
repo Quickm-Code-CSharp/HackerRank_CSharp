@@ -56,8 +56,9 @@ namespace HackerRank_CSharp
             Test_SingleDay(parentKey, namespaceKey, "BetweenTwoSets",  "Test_BetweenTwoSets");
             Test_SingleDay(parentKey, namespaceKey, "NumberLineJumps", "Test_NumberLineJumps");
             Test_SingleDay(parentKey, namespaceKey, "AppleOrange",     "Test_AppleOrange");
-            Test_SingleDay(parentKey, namespaceKey, "GradeStudents", "Test_GradeStudents");
+            Test_SingleDay(parentKey, namespaceKey, "GradeStudents",   "Test_GradeStudents");
             Test_SingleDay(parentKey, namespaceKey, "BirthdayCandles", "Test_BirthdayCandles");
+            Test_SingleDay(parentKey, namespaceKey, "MinMaxSum",       "Test_MinMaxSum");
         }
 
         private static void Test_SingleDay(string parentKey, string namespaceKey, string dayKey, string testClass)
@@ -85,6 +86,13 @@ namespace HackerRank_CSharp
 
             parentDir = TestResources.ResourceManager.GetString(parent);
             path = TestResources.ResourceManager.GetString(day);
+
+            if (String.IsNullOrEmpty(parentDir) || String.IsNullOrEmpty(path))
+            {
+                Console.WriteLine("Error: Invalid Resource Retrieval. Parent: {0} Day: {1}", parent, day);
+                System.Environment.Exit(-1);
+            }
+
             path = Path.Combine(parentDir, path);
 
             return path;

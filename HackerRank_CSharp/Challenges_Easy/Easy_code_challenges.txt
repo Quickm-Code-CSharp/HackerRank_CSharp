@@ -9,7 +9,7 @@ Number Line Jumps           03/31/2021      Algorithm_NumberLineJumps
 Apple and Orange            04/08/2021      Algorithm_AppleOrange
 Grading Students            04/08/2021      Algorithm_GradeStudents
 Birthday Cake Candles       04/09/2021      Algorithm_BirthdayCandles
-Mini Max Sum
+Mini Max Sum                04/09/2021      Algorithm_MinMaxSum
 StairCase
 Plus Minus
 Diagonal Difference
