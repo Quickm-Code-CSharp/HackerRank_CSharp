@@ -126,6 +126,9 @@
   <data name="BetweenTwoSets" xml:space="preserve">
     <value>TestFile_BetweenTwoSets.txt</value>
   </data>
+  <data name="BirthdayCandles" xml:space="preserve">
+    <value>TestFile_BirthdayCandles.txt</value>
+  </data>
   <data name="Challenges_Easy" xml:space="preserve">
     <value>Challenges_Easy</value>
   </data>

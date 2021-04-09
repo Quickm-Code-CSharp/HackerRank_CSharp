@@ -88,6 +88,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_BirthdayCandles.txt.
+        /// </summary>
+        internal static string BirthdayCandles {
+            get {
+                return ResourceManager.GetString("BirthdayCandles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Challenges_Easy.
         /// </summary>
         internal static string Challenges_Easy {
