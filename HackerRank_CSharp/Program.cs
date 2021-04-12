@@ -60,6 +60,7 @@ namespace HackerRank_CSharp
             Test_SingleDay(parentKey, namespaceKey, "BirthdayCandles", "Test_BirthdayCandles");
             Test_SingleDay(parentKey, namespaceKey, "MinMaxSum",       "Test_MinMaxSum");
             Test_SingleDay(parentKey, namespaceKey, "PlusMinus",       "Test_PlusMinus");
+            Test_SingleDay(parentKey, namespaceKey, "DiagonalDifference", "Test_DiagonalDifference");
         }
 
         private static void Test_SingleDay(string parentKey, string namespaceKey, string dayKey, string testClass)

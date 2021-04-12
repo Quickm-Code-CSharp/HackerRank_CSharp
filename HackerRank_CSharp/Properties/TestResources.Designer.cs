@@ -277,6 +277,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_DiagonalDifference.txt.
+        /// </summary>
+        internal static string DiagonalDifference {
+            get {
+                return ResourceManager.GetString("DiagonalDifference", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_GradeStudents.txt.
         /// </summary>
         internal static string GradeStudents {

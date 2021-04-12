@@ -27,6 +27,7 @@
     <None Remove="Challenges_Easy\TestFile_AppleOrange.txt" />
     <None Remove="Challenges_Easy\TestFile_BetweenTwoSets.txt" />
     <None Remove="Challenges_Easy\TestFile_BirthdayCandles.txt" />
+    <None Remove="Challenges_Easy\TestFile_DiagonalDifference.txt" />
     <None Remove="Challenges_Easy\TestFile_GradeStudents.txt" />
     <None Remove="Challenges_Easy\TestFile_MinMaxSum.txt" />
     <None Remove="Challenges_Easy\TestFile_NumberLineJumps.txt" />
@@ -99,6 +100,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges_Easy\TestFile_BirthdayCandles.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Challenges_Easy\TestFile_DiagonalDifference.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges_Easy\TestFile_GradeStudents.txt">

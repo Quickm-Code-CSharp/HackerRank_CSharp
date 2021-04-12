@@ -189,6 +189,9 @@
   <data name="Day9" xml:space="preserve">
     <value>TestFile_Day09.txt</value>
   </data>
+  <data name="DiagonalDifference" xml:space="preserve">
+    <value>TestFile_DiagonalDifference.txt</value>
+  </data>
   <data name="GradeStudents" xml:space="preserve">
     <value>TestFile_GradeStudents.txt</value>
   </data>

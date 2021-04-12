@@ -11,6 +11,6 @@ Grading Students            04/08/2021      Algorithm_GradeStudents
 Birthday Cake Candles       04/09/2021      Algorithm_BirthdayCandles
 Mini Max Sum                04/09/2021      Algorithm_MinMaxSum
 Plus Minus                  04/09/2021      Algorithm_PLusMinus
-Diagonal Difference
+Diagonal Difference         04/12/2021      Algorthm_DiagonalDifference
 Compare the Triplets
 Simple Array Sum
