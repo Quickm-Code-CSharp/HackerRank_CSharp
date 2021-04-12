@@ -30,6 +30,7 @@
     <None Remove="Challenges_Easy\TestFile_GradeStudents.txt" />
     <None Remove="Challenges_Easy\TestFile_MinMaxSum.txt" />
     <None Remove="Challenges_Easy\TestFile_NumberLineJumps.txt" />
+    <None Remove="Challenges_Easy\TestFile_PlusMinus.txt" />
     <None Remove="TestFile_Day7_ArrayReverse.txt" />
   </ItemGroup>
 
@@ -107,6 +108,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges_Easy\TestFile_NumberLineJumps.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Challenges_Easy\TestFile_PlusMinus.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

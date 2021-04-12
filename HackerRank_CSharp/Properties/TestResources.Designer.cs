@@ -302,5 +302,14 @@ namespace HackerRank_CSharp.Properties {
                 return ResourceManager.GetString("NumberLineJumps", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_PlusMinus.txt.
+        /// </summary>
+        internal static string PlusMinus {
+            get {
+                return ResourceManager.GetString("PlusMinus", resourceCulture);
+            }
+        }
     }
 }

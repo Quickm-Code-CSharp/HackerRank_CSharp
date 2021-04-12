@@ -198,4 +198,7 @@
   <data name="NumberLineJumps" xml:space="preserve">
     <value>TestFile_NumberLineJumps.txt</value>
   </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>TestFile_PlusMinus.txt</value>
+  </data>
 </root>

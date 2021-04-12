@@ -10,8 +10,7 @@ Apple and Orange            04/08/2021      Algorithm_AppleOrange
 Grading Students            04/08/2021      Algorithm_GradeStudents
 Birthday Cake Candles       04/09/2021      Algorithm_BirthdayCandles
 Mini Max Sum                04/09/2021      Algorithm_MinMaxSum
-StairCase
-Plus Minus
+Plus Minus                  04/09/2021      Algorithm_PLusMinus
 Diagonal Difference
 Compare the Triplets
 Simple Array Sum
