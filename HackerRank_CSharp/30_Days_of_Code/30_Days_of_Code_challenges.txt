@@ -5,13 +5,13 @@ Day challenges with dates have been implemented in C# and add to this project.
 
 Challenge:    C# Date:          Class                       Topic
 Day 0         Not retained                                  Hello World
-Day 1		      Not retained                                  Data Types
+Day 1		  Not retained                                  Data Types
 Day 2         03/16/2021        Operators_MealCost           
 Day 3         Not retained                                  Conditional Statements
-Day 4		      Not retained                                  Class vs Instance
-Day 5		      03/22/2021        Math_MultiplyTable
-Day 6		      03/16/2021        String_EvenOdd		
-Day 7		      03/16/2021		    Array_Reverse
+Day 4		  Not retained                                  Class vs Instance
+Day 5		  03/22/2021        Math_MultiplyTable
+Day 6		  03/16/2021        String_EvenOdd		
+Day 7		  03/16/2021		Array_Reverse
 Day 8         03/16/2021        Dictionary_Telephone
 Day 9         03/19/2021        Recursion_Factorial
 Day 10        03/20/2021        String_BinaryNumbers
