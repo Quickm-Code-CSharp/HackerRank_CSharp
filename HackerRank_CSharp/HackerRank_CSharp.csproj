@@ -25,8 +25,10 @@
     <None Remove="30_Days_of_Code\TestFile_Day28.txt" />
     <None Remove="30_Days_of_Code\TestFile_Day29.txt" />
     <None Remove="Challenges_Easy\TestFile_AppleOrange.txt" />
+    <None Remove="Challenges_Easy\TestFile_ArraySum.txt" />
     <None Remove="Challenges_Easy\TestFile_BetweenTwoSets.txt" />
     <None Remove="Challenges_Easy\TestFile_BirthdayCandles.txt" />
+    <None Remove="Challenges_Easy\TestFile_CompareTriplets.txt" />
     <None Remove="Challenges_Easy\TestFile_DiagonalDifference.txt" />
     <None Remove="Challenges_Easy\TestFile_GradeStudents.txt" />
     <None Remove="Challenges_Easy\TestFile_MinMaxSum.txt" />
@@ -96,10 +98,16 @@
     <Content Include="Challenges_Easy\TestFile_AppleOrange.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Challenges_Easy\TestFile_ArraySum.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Challenges_Easy\TestFile_BetweenTwoSets.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges_Easy\TestFile_BirthdayCandles.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Challenges_Easy\TestFile_CompareTriplets.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges_Easy\TestFile_DiagonalDifference.txt">

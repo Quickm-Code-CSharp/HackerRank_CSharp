@@ -123,6 +123,9 @@
   <data name="AppleOrange" xml:space="preserve">
     <value>TestFile_AppleOrange.txt</value>
   </data>
+  <data name="ArraySum" xml:space="preserve">
+    <value>TestFile_ArraySum.txt</value>
+  </data>
   <data name="BetweenTwoSets" xml:space="preserve">
     <value>TestFile_BetweenTwoSets.txt</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Challenges_Easy" xml:space="preserve">
     <value>Challenges_Easy</value>
+  </data>
+  <data name="CompareTriplets" xml:space="preserve">
+    <value>TestFile_CompareTriplets.txt</value>
   </data>
   <data name="Day10" xml:space="preserve">
     <value>TestFile_Day10.txt</value>

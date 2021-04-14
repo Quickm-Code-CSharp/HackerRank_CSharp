@@ -79,6 +79,15 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_ArraySum.txt.
+        /// </summary>
+        internal static string ArraySum {
+            get {
+                return ResourceManager.GetString("ArraySum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_BetweenTwoSets.txt.
         /// </summary>
         internal static string BetweenTwoSets {
@@ -102,6 +111,15 @@ namespace HackerRank_CSharp.Properties {
         internal static string Challenges_Easy {
             get {
                 return ResourceManager.GetString("Challenges_Easy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_CompareTriplets.txt.
+        /// </summary>
+        internal static string CompareTriplets {
+            get {
+                return ResourceManager.GetString("CompareTriplets", resourceCulture);
             }
         }
         
