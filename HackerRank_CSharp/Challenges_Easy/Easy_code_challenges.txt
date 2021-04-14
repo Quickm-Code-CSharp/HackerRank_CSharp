@@ -12,5 +12,5 @@ Birthday Cake Candles       04/09/2021      Algorithm_BirthdayCandles
 Mini Max Sum                04/09/2021      Algorithm_MinMaxSum
 Plus Minus                  04/09/2021      Algorithm_PLusMinus
 Diagonal Difference         04/12/2021      Algorthm_DiagonalDifference
-Compare the Triplets
-Simple Array Sum
+Compare the Triplets        04/13/2021      Algorithm_CompareTriplets
+Simple Array Sum            04/13/2021      Algorithm_ArraySum
