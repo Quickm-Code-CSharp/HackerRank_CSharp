@@ -1,8 +1,6 @@
-﻿using HackerRank_CSharp._30_Days_of_Code;
-using HackerRank_CSharp.Properties;
+﻿using HackerRank_CSharp.Properties;
 using System;
 using System.IO;
-using System.Resources;
 using System.Text;
 
 namespace HackerRank_CSharp
