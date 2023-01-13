@@ -18,7 +18,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
 
             Day06_String_EvenOdd evenOdd = new Day06_String_EvenOdd();
 
-            Console.WriteLine("Day 6: String Even or Odd: ");
+            Console.WriteLine("Day 06: String Even or Odd: ");
             Console.WriteLine("Input:  {0}", PrintList<string>(data));
 
             var output = evenOdd.EvenOddStrings(data);

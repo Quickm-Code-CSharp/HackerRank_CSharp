@@ -124,6 +124,60 @@ namespace HackerRank_CSharp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day02.txt.
+        /// </summary>
+        internal static string Day02 {
+            get {
+                return ResourceManager.GetString("Day02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day05.txt.
+        /// </summary>
+        internal static string Day05 {
+            get {
+                return ResourceManager.GetString("Day05", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day06.txt.
+        /// </summary>
+        internal static string Day06 {
+            get {
+                return ResourceManager.GetString("Day06", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day07.txt.
+        /// </summary>
+        internal static string Day07 {
+            get {
+                return ResourceManager.GetString("Day07", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day08.txt.
+        /// </summary>
+        internal static string Day08 {
+            get {
+                return ResourceManager.GetString("Day08", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TestFile_Day09.txt.
+        /// </summary>
+        internal static string Day09 {
+            get {
+                return ResourceManager.GetString("Day09", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TestFile_Day10.txt.
         /// </summary>
         internal static string Day10 {
@@ -165,15 +219,6 @@ namespace HackerRank_CSharp.Properties {
         internal static string Day18 {
             get {
                 return ResourceManager.GetString("Day18", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day02.txt.
-        /// </summary>
-        internal static string Day2 {
-            get {
-                return ResourceManager.GetString("Day2", resourceCulture);
             }
         }
         
@@ -246,51 +291,6 @@ namespace HackerRank_CSharp.Properties {
         internal static string Day29 {
             get {
                 return ResourceManager.GetString("Day29", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day05.txt.
-        /// </summary>
-        internal static string Day5 {
-            get {
-                return ResourceManager.GetString("Day5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day06.txt.
-        /// </summary>
-        internal static string Day6 {
-            get {
-                return ResourceManager.GetString("Day6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day07.txt.
-        /// </summary>
-        internal static string Day7 {
-            get {
-                return ResourceManager.GetString("Day7", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day08.txt.
-        /// </summary>
-        internal static string Day8 {
-            get {
-                return ResourceManager.GetString("Day8", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to TestFile_Day09.txt.
-        /// </summary>
-        internal static string Day9 {
-            get {
-                return ResourceManager.GetString("Day9", resourceCulture);
             }
         }
         

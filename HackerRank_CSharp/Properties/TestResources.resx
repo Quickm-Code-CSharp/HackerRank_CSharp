@@ -138,6 +138,24 @@
   <data name="CompareTriplets" xml:space="preserve">
     <value>TestFile_CompareTriplets.txt</value>
   </data>
+  <data name="Day02" xml:space="preserve">
+    <value>TestFile_Day02.txt</value>
+  </data>
+  <data name="Day05" xml:space="preserve">
+    <value>TestFile_Day05.txt</value>
+  </data>
+  <data name="Day06" xml:space="preserve">
+    <value>TestFile_Day06.txt</value>
+  </data>
+  <data name="Day07" xml:space="preserve">
+    <value>TestFile_Day07.txt</value>
+  </data>
+  <data name="Day08" xml:space="preserve">
+    <value>TestFile_Day08.txt</value>
+  </data>
+  <data name="Day09" xml:space="preserve">
+    <value>TestFile_Day09.txt</value>
+  </data>
   <data name="Day10" xml:space="preserve">
     <value>TestFile_Day10.txt</value>
   </data>
@@ -152,9 +170,6 @@
   </data>
   <data name="Day18" xml:space="preserve">
     <value>TestFile_Day18.txt</value>
-  </data>
-  <data name="Day2" xml:space="preserve">
-    <value>TestFile_Day02.txt</value>
   </data>
   <data name="Day20" xml:space="preserve">
     <value>TestFile_Day20.txt</value>
@@ -179,21 +194,6 @@
   </data>
   <data name="Day29" xml:space="preserve">
     <value>TestFile_Day29.txt</value>
-  </data>
-  <data name="Day5" xml:space="preserve">
-    <value>TestFile_Day05.txt</value>
-  </data>
-  <data name="Day6" xml:space="preserve">
-    <value>TestFile_Day06.txt</value>
-  </data>
-  <data name="Day7" xml:space="preserve">
-    <value>TestFile_Day07.txt</value>
-  </data>
-  <data name="Day8" xml:space="preserve">
-    <value>TestFile_Day08.txt</value>
-  </data>
-  <data name="Day9" xml:space="preserve">
-    <value>TestFile_Day09.txt</value>
   </data>
   <data name="DiagonalDifference" xml:space="preserve">
     <value>TestFile_DiagonalDifference.txt</value>

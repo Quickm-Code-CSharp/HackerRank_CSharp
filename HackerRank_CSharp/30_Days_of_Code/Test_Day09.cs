@@ -16,7 +16,7 @@ namespace HackerRank_CSharp._30_Days_of_Code
         {
             Day09_Recursion_Factorial fact = new Day09_Recursion_Factorial();
 
-            Console.WriteLine("Day 9: Recursion Factorial: ");
+            Console.WriteLine("Day 09: Recursion Factorial: ");
             Console.WriteLine("Test Usecases: ");
             foreach (var usecase in Usecases)
             {
