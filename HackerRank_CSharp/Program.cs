@@ -23,25 +23,25 @@ namespace HackerRank_CSharp
 
             Console.WriteLine("30 Days of Coding Challenges:");
 
-            Test_SingleDay(parentKey, namespaceKey ,"Day2", "Test_Day02");
-            Test_SingleDay(parentKey, namespaceKey, "Day5", "Test_Day05");
-            Test_SingleDay(parentKey, namespaceKey, "Day6", "Test_Day06");
-            Test_SingleDay(parentKey, namespaceKey, "Day7", "Test_Day07");
-            Test_SingleDay(parentKey, namespaceKey, "Day8", "Test_Day08");
-            Test_SingleDay(parentKey, namespaceKey, "Day9", "Test_Day09");
-            Test_SingleDay(parentKey, namespaceKey, "Day10", "Test_Day10");
-            Test_SingleDay(parentKey, namespaceKey, "Day11", "Test_Day11");
-            Test_SingleDay(parentKey, namespaceKey, "Day12", "Test_Day12");
-            Test_SingleDay(parentKey, namespaceKey, "Day15", "Test_Day15");
-            Test_SingleDay(parentKey, namespaceKey, "Day18", "Test_Day18");
-            Test_SingleDay(parentKey, namespaceKey, "Day20", "Test_Day20");
-            Test_SingleDay(parentKey, namespaceKey, "Day22", "Test_Day22");
-            Test_SingleDay(parentKey, namespaceKey, "Day23", "Test_Day23");
-            Test_SingleDay(parentKey, namespaceKey, "Day24", "Test_Day24");
-            Test_SingleDay(parentKey, namespaceKey, "Day25", "Test_Day25");
-            Test_SingleDay(parentKey, namespaceKey, "Day26", "Test_Day26");
-            Test_SingleDay(parentKey, namespaceKey, "Day28", "Test_Day28");
-            Test_SingleDay(parentKey, namespaceKey, "Day29", "Test_Day29");
+            Test_SingleDay(parentKey, namespaceKey ,"Day02");
+            Test_SingleDay(parentKey, namespaceKey, "Day05");
+            Test_SingleDay(parentKey, namespaceKey, "Day06");
+            Test_SingleDay(parentKey, namespaceKey, "Day07");
+            Test_SingleDay(parentKey, namespaceKey, "Day08");
+            Test_SingleDay(parentKey, namespaceKey, "Day09");
+            Test_SingleDay(parentKey, namespaceKey, "Day10");
+            Test_SingleDay(parentKey, namespaceKey, "Day11");
+            Test_SingleDay(parentKey, namespaceKey, "Day12");
+            Test_SingleDay(parentKey, namespaceKey, "Day15");
+            Test_SingleDay(parentKey, namespaceKey, "Day18");
+            Test_SingleDay(parentKey, namespaceKey, "Day20");
+            Test_SingleDay(parentKey, namespaceKey, "Day22");
+            Test_SingleDay(parentKey, namespaceKey, "Day23");
+            Test_SingleDay(parentKey, namespaceKey, "Day24");
+            Test_SingleDay(parentKey, namespaceKey, "Day25");
+            Test_SingleDay(parentKey, namespaceKey, "Day26");
+            Test_SingleDay(parentKey, namespaceKey, "Day28");
+            Test_SingleDay(parentKey, namespaceKey, "Day29");
         }
 
         private static void Test_Easy_Challenges()
@@ -51,22 +51,24 @@ namespace HackerRank_CSharp
 
             Console.WriteLine("Easy Challenges:");
 
-            Test_SingleDay(parentKey, namespaceKey, "BetweenTwoSets",  "Test_BetweenTwoSets");
-            Test_SingleDay(parentKey, namespaceKey, "NumberLineJumps", "Test_NumberLineJumps");
-            Test_SingleDay(parentKey, namespaceKey, "AppleOrange",     "Test_AppleOrange");
-            Test_SingleDay(parentKey, namespaceKey, "GradeStudents",   "Test_GradeStudents");
-            Test_SingleDay(parentKey, namespaceKey, "BirthdayCandles", "Test_BirthdayCandles");
-            Test_SingleDay(parentKey, namespaceKey, "MinMaxSum",       "Test_MinMaxSum");
-            Test_SingleDay(parentKey, namespaceKey, "PlusMinus",       "Test_PlusMinus");
-            Test_SingleDay(parentKey, namespaceKey, "DiagonalDifference", "Test_DiagonalDifference");
-            Test_SingleDay(parentKey, namespaceKey, "CompareTriplets", "Test_CompareTriplets");
-            Test_SingleDay(parentKey, namespaceKey, "ArraySum",        "Test_ArraySum");
+            Test_SingleDay(parentKey, namespaceKey, "BetweenTwoSets");
+            Test_SingleDay(parentKey, namespaceKey, "BetweenTwoSets");
+            Test_SingleDay(parentKey, namespaceKey, "NumberLineJumps");
+            Test_SingleDay(parentKey, namespaceKey, "AppleOrange");
+            Test_SingleDay(parentKey, namespaceKey, "GradeStudents");
+            Test_SingleDay(parentKey, namespaceKey, "BirthdayCandles");
+            Test_SingleDay(parentKey, namespaceKey, "MinMaxSum");
+            Test_SingleDay(parentKey, namespaceKey, "PlusMinus");
+            Test_SingleDay(parentKey, namespaceKey, "DiagonalDifference");
+            Test_SingleDay(parentKey, namespaceKey, "CompareTriplets");
+            Test_SingleDay(parentKey, namespaceKey, "ArraySum");
         }
 
-        private static void Test_SingleDay(string parentKey, string namespaceKey, string dayKey, string testClass)
+        private static void Test_SingleDay(string parentKey, string namespaceKey, string dayKey)
         {
-            string          testfile;
-            StringBuilder   sb          = new StringBuilder();
+            string testfile;
+            string testClass = "Test_" + dayKey;
+            StringBuilder sb = new StringBuilder();
 
             // Get test data file
             testfile = GetTestFilePath(parentKey, dayKey);
